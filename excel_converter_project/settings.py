@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-j%qzbyy92uw!_=39np*&ba@&%4ol#tsy=vzf*#gf@q9qr!ku!f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['moblapps22.pythonanywhere.com','127.0.0.1','localhost']
 
 
 # Application definition
@@ -116,7 +116,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-
+STATIC_ROOT = "/home/moblapps22/podqbformat/empty_static"
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
