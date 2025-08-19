@@ -1,0 +1,1701 @@
+Group Id,Question Type,Question Content,Question Options,Answer,Configuration,Place Holder,Details,Tags,Complexity Level,Group Question ID,Parent Group Question ID,Taxonomy,Marks,Negative Marks,Course Outcome Configuration,Course Topic,Course Sub Topic
+1,single select,"[type=text]
+Who developed the Python programming language?","[key=A]
+Dennis Ritchie
+
+[key=B]
+James Gosling
+
+[key=C]
+Guido van Rossum
+
+[key=D]
+Bjarne Stroustrup",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Introduction to Python
+1,single select,"[type=text]
+What is the correct file extension for Python files?","[key=A]
+.pyt
+
+[key=B]
+.pt
+
+[key=C]
+.py
+
+[key=D]
+.python",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Basic Syntax
+1,single select,"[type=text]
+Which version of Python uses print as a function?","[key=A]
+Python 2
+
+[key=B]
+Python 3
+
+[key=C]
+Both
+
+[key=D]
+Neither",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Python 2/3 differences
+1,single select,"[type=text]
+What is the output of 3**2 in Python?","[key=A]
+6
+
+[key=B]
+9
+
+[key=C]
+8
+
+[key=D]
+Error",B,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Operators
+1,single select,"[type=text]
+What symbol is used to write comments in Python?","[key=A]
+//
+
+[key=B]
+/*
+
+[key=C]
+#
+
+[key=D]
+--",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Basic Syntax
+1,single select,"[type=text]
+Which of these is a valid variable name?","[key=A]
+2data
+
+[key=B]
+for
+
+[key=C]
+_value
+
+[key=D]
+class",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Variable
+1,single select,"[type=text]
+Which operator performs floor division?","[key=A]
+/
+
+[key=B]
+//
+
+[key=C]
+%
+
+[key=D]
+**",B,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Operators
+1,single select,"[type=text]
+What type does input() return in Python 3?","[key=A]
+int
+
+[key=B]
+float
+
+[key=C]
+str
+
+[key=D]
+bool",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Basic program structure
+1,single select,"[type=text]
+Which of the following is not a fundamental data type?","[key=A]
+int
+
+[key=B]
+str
+
+[key=C]
+dict
+
+[key=D]
+boolean",D,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,fundamental data types
+1,single select,"[type=text]
+Python is an example of a?","[key=A]
+Low-level language
+
+[key=B]
+Middle-level language
+
+[key=C]
+Object-oriented programming language
+
+[key=D]
+Assembly language",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Features
+1,single select,"[type=text]
+Which Python IDE runs in a browser?","[key=A]
+PyCharm
+
+[key=B]
+Jupyter Notebook
+
+[key=C]
+Sublime Text
+
+[key=D]
+VS Code",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,working on Jupyter Notebook
+1,single select,"[type=text]
+Python was first released in?","[key=A]
+1989
+
+[key=B]
+1991
+
+[key=C]
+2000
+
+[key=D]
+1995",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,History
+1,single select,"[type=text]
+Which feature makes Python suitable for AI?","[key=A]
+Statically typed
+
+[key=B]
+Dynamic typing
+
+[key=C]
+Low-level memory control
+
+[key=D]
+Macro processing",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Features
+1,single select,"[type=text]
+Indentation in Python is used to?","[key=A]
+Mark comments
+
+[key=B]
+Indicate code blocks
+
+[key=C]
+End statements
+
+[key=D]
+Ignore spaces",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Basic program structure
+1,single select,"[type=text]
+What happens if indentation is not consistent?","[key=A]
+Nothing
+
+[key=B]
+Warning only
+
+[key=C]
+Runtime error
+
+[key=D]
+IndentationError",D,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,quotation and indentation
+1,single select,"[type=text]
+Python can be used for?","[key=A]
+Web Development
+
+[key=B]
+Data Science
+
+[key=C]
+Automation
+
+[key=D]
+All of the above",D,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Application of Python
+1,single select,"[type=text]
+Which is NOT an application of Python?","[key=A]
+System Programming
+
+[key=B]
+Game Development
+
+[key=C]
+Web Crawling
+
+[key=D]
+Compiler Design",D,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Application of Python
+1,single select,"[type=text]
+Which version of Python introduced print() as a function?","[key=A]
+2.7
+
+[key=B]
+3
+
+[key=C]
+3.6
+
+[key=D]
+3.8",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Python 2/3 differences
+1,single select,"[type=text]
+What command is used to start Python from terminal?","[key=A]
+run python
+
+[key=B]
+python start
+
+[key=C]
+python
+
+[key=D]
+open python",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Installation
+1,single select,"[type=text]
+Which tool is best for interactive Python scripting?","[key=A]
+Atom
+
+[key=B]
+Notepad++
+
+[key=C]
+Jupyter Notebook
+
+[key=D]
+PyInstaller",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,working on Jupyter Notebook
+1,single select,"[type=text]
+How do you define a list in Python?","[key=A]
+{}
+
+[key=B]
+[]
+
+[key=C]
+()
+
+[key=D]
+<>",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Lists
+1,single select,"[type=text]
+What is the output of len([1","[key=A]
+2
+
+[key=B]
+3])?
+
+[key=C]
+2
+
+[key=D]
+3",1,,,,,Easy,,,B,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Apply
+1,single select,"[type=text]
+Which method adds an element to the list?","[key=A]
+insert()
+
+[key=B]
+append()
+
+[key=C]
+add()
+
+[key=D]
+push()",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Function and Methods
+1,single select,"[type=text]
+What is the result of [1","[key=A]
+2] + [3
+
+[key=B]
+4]?
+
+[key=C]
+[1
+
+[key=D]
+2",3,,,,,Easy,,,[1,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,[3
+1,single select,"[type=text]
+Tuples are _____?","[key=A]
+Mutable
+
+[key=B]
+Immutable
+
+[key=C]
+Modifiable
+
+[key=D]
+Dynamic",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Tuple
+1,single select,"[type=text]
+How do you access the second element of a tuple t = (10","[key=A]
+20
+
+[key=B]
+30)?
+
+[key=C]
+t[0]
+
+[key=D]
+t[1]",t(1),,,,,Easy,,,B,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Apply
+1,single select,"[type=text]
+Which method counts the number of occurrences in a list?","[key=A]
+index()
+
+[key=B]
+count()
+
+[key=C]
+sum()
+
+[key=D]
+length()",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Function and Methods
+1,single select,"[type=text]
+What does the pop() method do?","[key=A]
+Deletes all
+
+[key=B]
+Removes last element
+
+[key=C]
+Adds to end
+
+[key=D]
+Adds to start",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Function and Methods
+1,single select,"[type=text]
+How do you declare an empty dictionary?","[key=A]
+{}
+
+[key=B]
+[]
+
+[key=C]
+()
+
+[key=D]
+nan",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Dictionaries
+1,single select,"[type=text]
+What will be the output of d = {'a':1","[key=A]
+b':2}; print(d['b'])?
+
+[key=B]
+a
+
+[key=C]
+1
+
+[key=D]
+2",b,,,,,Easy,,,CLO03,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,40 seconds
+1,single select,"[type=text]
+Which function returns dictionary keys?","[key=A]
+values()
+
+[key=B]
+items()
+
+[key=C]
+keys()
+
+[key=D]
+elements()",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Functions
+1,single select,"[type=text]
+Which of the following is true about dictionaries?","[key=A]
+Ordered
+
+[key=B]
+Supports duplicate keys
+
+[key=C]
+Unordered
+
+[key=D]
+Immutable",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Properties
+1,single select,"[type=text]
+String slices in Python are written using?","[key=A]
+{}
+
+[key=B]
+()
+
+[key=C]
+[]
+
+[key=D]
+<>",C,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,String slices
+1,single select,"[type=text]
+What is the output of 'hello'[1:4]?","[key=A]
+ell
+
+[key=B]
+hel
+
+[key=C]
+llo
+
+[key=D]
+heo",A,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,String slices
+1,single select,"[type=text]
+Which function returns string in uppercase?","[key=A]
+upper()
+
+[key=B]
+capitalize()
+
+[key=C]
+title()
+
+[key=D]
+case()",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Function and Methods
+1,single select,"[type=text]
+Strings in Python are?","[key=A]
+Mutable
+
+[key=B]
+Immutable
+
+[key=C]
+Static
+
+[key=D]
+Dynamic",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,String
+1,single select,"[type=text]
+What does 'abc'.find('b') return?","[key=A]
+0
+
+[key=B]
+1
+
+[key=C]
+2
+
+[key=D]
+-1",B,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,String
+1,single select,"[type=text]
+Which method removes whitespace?","[key=A]
+strip()
+
+[key=B]
+trim()
+
+[key=C]
+clean()
+
+[key=D]
+remove()",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Function and Methods
+1,single select,"[type=text]
+How can you convert a list to tuple?","[key=A]
+tuple(list)
+
+[key=B]
+list(tuple)
+
+[key=C]
+convert(list)
+
+[key=D]
+change(tuple)",A,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Working Functions
+1,single select,"[type=text]
+Which of the following is not a method in string?","[key=A]
+find()
+
+[key=B]
+split()
+
+[key=C]
+append()
+
+[key=D]
+upper()",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Function and Methods
+1,single select,"[type=text]
+Which keyword is used for decision making in Python?","[key=A]
+if
+
+[key=B]
+switch
+
+[key=C]
+select
+
+[key=D]
+case",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Conditional blocks using if
+1,single select,"[type=text]
+What is the output of: if 5 > 2: print(""Yes"")?","[key=A]
+Yes
+
+[key=B]
+No
+
+[key=C]
+Error
+
+[key=D]
+nan",A,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Conditional blocks using if
+1,single select,"[type=text]
+What is the syntax for if-else in Python?","[key=A]
+if-else()
+
+[key=B]
+if: else:
+
+[key=C]
+if {} else {}
+
+[key=D]
+if then else",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Conditional blocks using if
+1,single select,"[type=text]
+Which loop is best when number of iterations is known?","[key=A]
+while
+
+[key=B]
+for
+
+[key=C]
+do-while
+
+[key=D]
+loop",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,for loops
+1,single select,"[type=text]
+Which function is used to generate ranges?","[key=A]
+generate()
+
+[key=B]
+range()
+
+[key=C]
+xrange()
+
+[key=D]
+loop()",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,for loop using ranges
+1,single select,"[type=text]
+What is output of range(0","[key=A]
+3)?
+
+[key=B]
+[0
+
+[key=C]
+1
+
+[key=D]
+2",3],,,,,Easy,,,2,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,[0
+1,single select,"[type=text]
+The while loop continues until?","[key=A]
+Condition is False
+
+[key=B]
+Condition is True
+
+[key=C]
+Error occurs
+
+[key=D]
+Loop breaks",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Use of while loops
+1,single select,"[type=text]
+What is an infinite loop?","[key=A]
+Runs once
+
+[key=B]
+Runs forever
+
+[key=C]
+Throws error
+
+[key=D]
+Runs 0 times",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Use of while loops
+1,single select,"[type=text]
+Which keyword skips the current iteration?","[key=A]
+skip()
+
+[key=B]
+pass
+
+[key=C]
+continue
+
+[key=D]
+break",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Loop manipulation
+1,single select,"[type=text]
+Which keyword exits a loop entirely?","[key=A]
+pass
+
+[key=B]
+continue
+
+[key=C]
+exit
+
+[key=D]
+break",D,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Loop manipulation
+1,single select,"[type=text]
+What does pass statement do?","[key=A]
+Skips loop
+
+[key=B]
+Does nothing
+
+[key=C]
+Ends loop
+
+[key=D]
+Repeats loop",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,pass
+1,single select,"[type=text]
+What is the output of: for i in ""abc"": print(i)?","[key=A]
+a b c
+
+[key=B]
+abc
+
+[key=C]
+cba
+
+[key=D]
+Error",A,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,for loops
+1,single select,"[type=text]
+What happens after break in loop?","[key=A]
+Skips to next
+
+[key=B]
+Repeats
+
+[key=C]
+Exits loop
+
+[key=D]
+Continues loop",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,break
+1,single select,"[type=text]
+Which loop is used to iterate over dictionaries?","[key=A]
+for
+
+[key=B]
+while
+
+[key=C]
+foreach
+
+[key=D]
+map",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,string
+1,single select,"[type=text]
+How many times does the loop run? for i in range(3): print(i)","[key=A]
+1
+
+[key=B]
+2
+
+[key=C]
+3
+
+[key=D]
+0",C,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,for loop using ranges
+1,single select,"[type=text]
+Which loop guarantees at least one execution?","[key=A]
+while
+
+[key=B]
+for
+
+[key=C]
+do-while
+
+[key=D]
+nan",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Use of while loops
+1,single select,"[type=text]
+Can an else be used with for loop?","[key=A]
+Yes
+
+[key=B]
+No
+
+[key=C]
+Only with if
+
+[key=D]
+Only in functions",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Loop manipulation using else
+1,single select,"[type=text]
+What is the output of: while False: print(""Hi"")?","[key=A]
+Hi
+
+[key=B]
+Nothing
+
+[key=C]
+Error
+
+[key=D]
+0",B,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Use of while loops
+1,single select,"[type=text]
+Can loops be nested in Python?","[key=A]
+Yes
+
+[key=B]
+No
+
+[key=C]
+Only for
+
+[key=D]
+Only while",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Programming using Python conditional and loops block
+1,single select,"[type=text]
+What will break do inside nested loop?","[key=A]
+Exits all
+
+[key=B]
+Exits one loop
+
+[key=C]
+Restarts
+
+[key=D]
+Skips",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Loop manipulation
+1,single select,"[type=text]
+Which keyword is used to define a function in Python?","[key=A]
+define
+
+[key=B]
+function
+
+[key=C]
+def
+
+[key=D]
+fun",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Functions
+1,single select,"[type=text]
+What will def func(x): return x*x do?","[key=A]
+Multiply x
+
+[key=B]
+Square x
+
+[key=C]
+Add x
+
+[key=D]
+Divide x",B,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,definition and use
+1,single select,"[type=text]
+Functions in Python begin with?","[key=A]
+func
+
+[key=B]
+def
+
+[key=C]
+start
+
+[key=D]
+function",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,definition and use
+1,single select,"[type=text]
+What is a parameter?","[key=A]
+A variable
+
+[key=B]
+Value passed
+
+[key=C]
+Function result
+
+[key=D]
+Loop variable",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Arguments
+1,single select,"[type=text]
+Which keyword indicates end of function?","[key=A]
+end
+
+[key=B]
+stop
+
+[key=C]
+return
+
+[key=D]
+exit",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Block structure
+1,single select,"[type=text]
+Functions improve code by?","[key=A]
+Reducing complexity
+
+[key=B]
+Increasing lines
+
+[key=C]
+Removing variables
+
+[key=D]
+Reducing memory",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,organizing python codes
+1,single select,"[type=text]
+Python supports recursion?","[key=A]
+Yes
+
+[key=B]
+No
+
+[key=C]
+Only for math
+
+[key=D]
+Only in loops",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Recursion
+1,single select,"[type=text]
+What is the output: def f(): return 2*3; print(f())?","[key=A]
+2
+
+[key=B]
+3
+
+[key=C]
+6
+
+[key=D]
+Error",C,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,definition and use
+1,single select,"[type=text]
+Which is a valid function call?","[key=A]
+call myFunc()
+
+[key=B]
+myFunc()
+
+[key=C]
+def myFunc()
+
+[key=D]
+run(myFunc)",B,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,definition and use
+1,single select,"[type=text]
+What is scope of a variable?","[key=A]
+Its type
+
+[key=B]
+Its range
+
+[key=C]
+Where it is accessible
+
+[key=D]
+Its value",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,scope
+1,single select,"[type=text]
+What happens if no return in function?","[key=A]
+Returns 0
+
+[key=B]
+Returns None
+
+[key=C]
+Returns error
+
+[key=D]
+Returns void",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,definition and use
+1,single select,"[type=text]
+Which of these is a Python module?","[key=A]
+math
+
+[key=B]
+random
+
+[key=C]
+time
+
+[key=D]
+All of these",D,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Modules
+1,single select,"[type=text]
+Which module is used for mathematical functions?","[key=A]
+math
+
+[key=B]
+time
+
+[key=C]
+os
+
+[key=D]
+sys",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Math module
+1,single select,"[type=text]
+random.randint(1","[key=A]
+10) returns?
+
+[key=B]
+Decimal
+
+[key=C]
+Float
+
+[key=D]
+Integer between 1 and 10",String,,,,,Easy,,,CLO04,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,40 seconds
+1,single select,"[type=text]
+What does time.sleep(2) do?","[key=A]
+Stops for 2 secs
+
+[key=B]
+Prints time
+
+[key=C]
+Stops program
+
+[key=D]
+Ends loop",A,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,time
+1,single select,"[type=text]
+Which keyword is used to import module?","[key=A]
+import
+
+[key=B]
+include
+
+[key=C]
+module
+
+[key=D]
+require",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Importing module
+1,single select,"[type=text]
+How do you import your own module?","[key=A]
+import ""file""
+
+[key=B]
+require file
+
+[key=C]
+import filename
+
+[key=D]
+import my.file",C,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Importing own module
+1,single select,"[type=text]
+Which module gives current time?","[key=A]
+sys
+
+[key=B]
+math
+
+[key=C]
+time
+
+[key=D]
+random",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,time
+1,single select,"[type=text]
+Which is the correct syntax to call math.sqrt(9)?","[key=A]
+math.sqrt(9)
+
+[key=B]
+sqrt(9)
+
+[key=C]
+sqrt.math(9)
+
+[key=D]
+math:root(9)",A,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Math module
+1,single select,"[type=text]
+Which is not a valid built-in module?","[key=A]
+math
+
+[key=B]
+sys
+
+[key=C]
+random
+
+[key=D]
+calculate",D,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Importing module
+1,single select,"[type=text]
+Which function reads input from the user?","[key=A]
+get()
+
+[key=B]
+scan()
+
+[key=C]
+input()
+
+[key=D]
+read()",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Reading data from keyboard
+1,single select,"[type=text]
+What does print(""Hello"") do?","[key=A]
+Writes to file
+
+[key=B]
+Prints Hello
+
+[key=C]
+Reads Hello
+
+[key=D]
+Saves Hello",B,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Printing on screen
+1,single select,"[type=text]
+Which function opens a file?","[key=A]
+openfile()
+
+[key=B]
+file()
+
+[key=C]
+open()
+
+[key=D]
+readfile()",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Opening and closing file
+1,single select,"[type=text]
+What mode is used for writing to file?","[key=A]
+r'
+
+[key=B]
+w'
+
+[key=C]
+rw'
+
+[key=D]
+a'",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Reading and writing files
+1,single select,"[type=text]
+What does 'r' mode mean?","[key=A]
+read
+
+[key=B]
+write
+
+[key=C]
+append
+
+[key=D]
+read & write",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Opening and closing file
+1,single select,"[type=text]
+What is returned by open()?","[key=A]
+Function
+
+[key=B]
+Object
+
+[key=C]
+String
+
+[key=D]
+Loop",B,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Opening and closing file
+1,single select,"[type=text]
+Which method reads all lines in file?","[key=A]
+read()
+
+[key=B]
+readline()
+
+[key=C]
+readlines()
+
+[key=D]
+readall()",C,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Reading and writing files
+1,single select,"[type=text]
+Which keyword handles exceptions?","[key=A]
+try
+
+[key=B]
+throw
+
+[key=C]
+except
+
+[key=D]
+catch",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Exception
+1,single select,"[type=text]
+What is output of: try: print(1/0) except: print(""Error"")?","[key=A]
+1
+
+[key=B]
+0
+
+[key=C]
+Error
+
+[key=D]
+nan",C,,,,,Easy,,,Apply,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Exception Handling
+1,single select,"[type=text]
+Which keyword is used to raise exception?","[key=A]
+throw
+
+[key=B]
+raise
+
+[key=C]
+error
+
+[key=D]
+except",B,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,raise
+1,single select,"[type=text]
+Which keyword is used to catch exception?","[key=A]
+except
+
+[key=B]
+try
+
+[key=C]
+finally
+
+[key=D]
+handle",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Except clause
+1,single select,"[type=text]
+Which block always executes?","[key=A]
+try
+
+[key=B]
+except
+
+[key=C]
+raise
+
+[key=D]
+finally",D,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,finally clause
+1,single select,"[type=text]
+What is a user-defined exception?","[key=A]
+System error
+
+[key=B]
+Runtime error
+
+[key=C]
+Custom error
+
+[key=D]
+Logic error",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,User Defined Exceptions
+1,single select,"[type=text]
+What happens if no except clause matches?","[key=A]
+continue
+
+[key=B]
+Error is ignored
+
+[key=C]
+Another try used
+
+[key=D]
+Program crashes",D,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Exception Handling
+1,single select,"[type=text]
+Which function writes to file?","[key=A]
+write()
+
+[key=B]
+printfile()
+
+[key=C]
+read()
+
+[key=D]
+out()",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Reading and writing files
+1,single select,"[type=text]
+What does file.close() do?","[key=A]
+Nothing
+
+[key=B]
+Reads file
+
+[key=C]
+Closes file
+
+[key=D]
+Deletes file",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Opening and closing file
+1,single select,"[type=text]
+What does input() return?","[key=A]
+str
+
+[key=B]
+int
+
+[key=C]
+float
+
+[key=D]
+bool",A,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Reading data from keyboard
+1,single select,"[type=text]
+Which statement is used to define exception?","[key=A]
+define
+
+[key=B]
+raise
+
+[key=C]
+assert
+
+[key=D]
+except",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Exception
+1,single select,"[type=text]
+How to handle multiple exceptions?","[key=A]
+multiple except
+
+[key=B]
+try-many
+
+[key=C]
+except blocks
+
+[key=D]
+try-except-else",C,,,,,Easy,,,Understand,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Exception Handling
+1,single select,"[type=text]
+What is file mode for appending?","[key=A]
+a'
+
+[key=B]
+w'
+
+[key=C]
+r'
+
+[key=D]
+rw'",A,,,,,Easy,,,Remember,1,0,"[
+    {
+        ""co"": ""CO01"",
+        ""weightage"": 100
+    }
+]",Python Intro,Reading and writing files
