@@ -37,7 +37,13 @@
                 <li>The <b>Complexity</b> values must be one of: <code>Very Easy</code>, <code>Easy</code>, or <code>Medium</code>.</li>
             </ol>
         </div>
-
+       <!-- Sample File Download -->
+        <div class="text-center mb-4">
+            📥 <a href="{% static 'sampleInputQBFormat.xlsx' %}" 
+                  class="btn btn-outline-success rounded-pill shadow-sm fw-bold">
+                Download Sample Input File
+            </a>
+        </div>
   
         <form method="post" enctype="multipart/form-data">
             {% csrf_token %}
@@ -83,13 +89,7 @@
                 {{ sample_preview|safe }}
             </div>
         </div>
-        <!-- Sample File Download -->
-        <div class="text-center mb-4">
-            📥 <a href="{% static 'sampleInputQBFormat.xlsx' %}" 
-                  class="btn btn-outline-success rounded-pill shadow-sm fw-bold">
-                Download Sample Input File
-            </a>
-        </div>
+ 
         
         {% endif %}        
     </div>
