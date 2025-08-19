@@ -143,8 +143,7 @@ Python was first released in?","[key=A]
 
 [key=D]
 1995",B,,,,,medium,,,Remember,1,0,"[{""co"": ""CO01"", ""weightage"": 100}]",Python Intro,History
-3,single select,"[type=text]
-[type=text]
+3,output,"[type=text]
 What is the output of the below program?
 
 [type=code]
@@ -174,4 +173,4 @@ Quiz
 2
 
 [key=D]
-1",,,,,,medium,,,Apply,1,0,"[{""co"": ""CO03"", ""weightage"": 100}]",Python Intro,Basic program structure
+1",2,,,,,medium,,,Apply,1,0,"[{""co"": ""CO03"", ""weightage"": 100}]",Python Intro,Basic program structure

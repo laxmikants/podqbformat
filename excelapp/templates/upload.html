@@ -20,6 +20,12 @@
                 <li>Map an MCQ to <b>only one Course Outcome</b>, not multiple.</li>
                 <li>The <b>Course Outcome</b> value should follow the format <code>CO01, CO02</code> (not <code>CO1, CO2</code>).</li>
                 <li>The <b>Question Type</b> should be kept as <code>single select or output</code> only.</li>
+                <li>If the <b>Question Type</b> is <code>output</code> and involves code, 
+                    please write <code>[type=code]</code> before the beginning of the code.  
+                    Example: <br>
+                    <code>Select correct output <br>[type=code]</code><br>
+                    <code>print("Hello World")</code>
+                </li>                
                 <li>The <b>Group ID</b> should be the same for all questions of the same complexity level 
                     (e.g., <code>1</code> for all "very easy", <code>2</code> for all "easy", etc.).</li>
                 <li>The input Excel file must contain the following column names in order:  
@@ -44,11 +50,31 @@
             </div>
         </form>
 
-        {% if download_link %}
-        <div class="alert alert-success mt-4 text-center rounded-pill shadow-sm">
-            ✅ Converted file: <a href="{{ download_link }}" class="fw-bold text-decoration-none">Download Here</a>
-        </div>
-        {% endif %}
+      {% if download_link %}
+      <div id="success-msg" class="alert alert-success mt-4 text-center rounded-pill shadow-sm">
+          ✅ Converted file: 
+          <a href="{{ download_link }}" class="fw-bold text-decoration-none">Download Here</a>
+      </div>
+      <!-- JavaScript to blink the message -->
+      {% if just_converted %}
+      <script>
+          const msg = document.getElementById('success-msg');
+          if (msg) {
+              let visible = true;
+              const interval = setInterval(() => {
+                  msg.style.visibility = visible ? 'hidden' : 'visible';
+                  visible = !visible;
+              }, 500); // Blink every 0.5 seconds
+      
+              // Stop blinking after 3 seconds and show message permanently
+              setTimeout(() => {
+                  clearInterval(interval);
+                  msg.style.visibility = 'visible';
+              }, 5000);
+          }
+      </script>
+      {% endif %}
+      {% endif %}
         
         {% if sample_preview %}
         <div class="mt-5">

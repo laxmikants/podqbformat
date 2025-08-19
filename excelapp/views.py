@@ -135,6 +135,10 @@ def upload_file(request):
 
                 # Save the converted CSV
                 converted_df.to_csv(output_path, index=False)
+                
+                # ✅ Delete uploaded Excel after conversion
+                if os.path.exists(file_path):
+                    os.remove(file_path)                
                # For now: just return converted CSV path
                 # Create download link
                 download_link = settings.MEDIA_URL + 'converted/' + output_filename
@@ -146,7 +150,9 @@ def upload_file(request):
     return render(request, 'upload.html', {
         'download_link': download_link,
         'error_message': error_message,
-        'sample_preview': sample_preview
+        'sample_preview': sample_preview,
+        'just_converted': request.method == 'POST' and download_link is not None
+        
         
     })
 
