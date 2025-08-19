@@ -14,6 +14,15 @@ from django.core.files.storage import default_storage
 from django.shortcuts import render
 from openpyxl import load_workbook
 
+
+# Expected columns
+REQUIRED_COLUMNS = [
+    "Group ID", "Question Type", "Question Content",
+    "OptionA", "OptionB", "OptionC", "OptionD",
+    "Answer", "CoureOutcome", "Taxonomy", "Complexity",
+    "Topic", "Course Sub Topic"
+]
+
 def convert_excel(file_path):
     # Demo conversion: copy contents to new file
     wb = load_workbook(file_path)
@@ -56,57 +65,72 @@ def format_course_outcome(co_value):
 
 def upload_file(request):
     download_link = None
+    error_message = None
 
     if request.method == 'POST' and request.FILES.get('excelfile'):
         uploaded_file = request.FILES['excelfile']
-        
+
         # Save uploaded file temporarily
         file_name = default_storage.save(uploaded_file.name, uploaded_file)
         file_path = os.path.join(settings.MEDIA_ROOT, file_name)
 
-        # Read uploaded Excel
-        df = pd.read_excel(file_path)
+        try:
+            # Read uploaded Excel
+            df = pd.read_excel(file_path)
 
-        # Transform data
-        result = []
-        for _, row in df.iterrows():
-            question = {
-                "Group Id": row["Group ID"],
-                "Question Type": "single select",
-                "Question Content": f"[type=text]\n{row['Question Content']}",
-                "Question Options": format_options(row),
-                "Answer": row["Answer"],
-                "Configuration": "",
-                "Place Holder": "",
-                "Details": "",
-                "Tags": "",
-                "Complexity Level": row["Complexity"],
-                "Group Question ID": "",
-                "Parent Group Question ID": "",
-                "Taxonomy": row["Taxonomy"],
-                "Marks": "1",
-                "Negative Marks": "0",
-                "Course Outcome Configuration": format_course_outcome(row["CoureOutcome"]),
-                "Course Topic": row["Topic"],
-                "Course Sub Topic": row["Course Sub Topic"]
-            }
-            result.append(question)
+            # ✅ Validate columns
+            missing_cols = [col for col in REQUIRED_COLUMNS if col not in df.columns]
+            if missing_cols:
+                error_message = f"❌ Uploaded file is missing required columns: {', '.join(missing_cols)}"
+            else:
+                # Transform data
+                result = []
+                for _, row in df.iterrows():
+                    question = {
+                        "Group Id": row["Group ID"],
+                        "Question Type": row["Question Type"],
+                        "Question Content": f"[type=text]\n{row['Question Content']}",
+                        "Question Options": format_options(row),
+                        "Answer": row["Answer"],
+                        "Configuration": "",
+                        "Place Holder": "",
+                        "Details": "",
+                        "Tags": "",
+                        "Complexity Level": row["Complexity"],
+                        "Group Question ID": "",
+                        "Parent Group Question ID": "",
+                        "Taxonomy": row["Taxonomy"],
+                        "Marks": "1",
+                        "Negative Marks": "0",
+                        "Course Outcome Configuration": format_course_outcome(row["CoureOutcome"]),
+                        "Course Topic": row["Topic"],
+                        "Course Sub Topic": row["Course Sub Topic"]
+                    }
+                    result.append(question)
 
-        # Convert to DataFrame
-        converted_df = pd.DataFrame(result)
+                # Convert to DataFrame
+                converted_df = pd.DataFrame(result)
 
-        # Create output directory if needed
-        output_dir = os.path.join(settings.MEDIA_ROOT, 'converted')
-        os.makedirs(output_dir, exist_ok=True)
+                # Create output directory if needed
+                output_dir = os.path.join(settings.MEDIA_ROOT, 'converted')
+                os.makedirs(output_dir, exist_ok=True)
 
-        # Output file path
-        output_filename = 'converted_' + os.path.basename(file_path).replace('.xlsx', '') + '.csv'
-        output_path = os.path.join(output_dir, output_filename)
+                # Output file path
+                output_filename = 'converted_' + os.path.basename(file_path).replace('.xlsx', '') + '.csv'
+                output_path = os.path.join(output_dir, output_filename)
 
-        # Save the converted Excel
-        converted_df.to_csv(output_path, index=False)
+                # Save the converted CSV
+                converted_df.to_csv(output_path, index=False)
 
-        # Create download link
-        download_link = settings.MEDIA_URL + 'converted/' + output_filename
+                # Create download link
+                download_link = settings.MEDIA_URL + 'converted/' + output_filename
+
+        except Exception as e:
+            error_message = f"⚠️ Error processing file: {str(e)}"
+
+    return render(request, 'upload.html', {
+        'download_link': download_link,
+        'error_message': error_message
+    })
 
     return render(request, 'upload.html', {'download_link': download_link})
