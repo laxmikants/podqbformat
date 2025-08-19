@@ -67,6 +67,20 @@ def upload_file(request):
     download_link = None
     error_message = None
 
+
+    sample_preview = None
+
+    # ✅ Path to your sample file inside empty_static
+    sample_file_path = os.path.join(settings.BASE_DIR, "empty_static", "sampleInputQBFormat.xlsx")
+    if os.path.exists(sample_file_path):
+        df = pd.read_excel(sample_file_path)
+        # Only show first 5 rows
+        sample_preview = df.head().to_html(
+            classes="table table-bordered table-striped table-sm",
+            index=False
+        )
+
+
     if request.method == 'POST' and request.FILES.get('excelfile'):
         uploaded_file = request.FILES['excelfile']
 
@@ -121,16 +135,20 @@ def upload_file(request):
 
                 # Save the converted CSV
                 converted_df.to_csv(output_path, index=False)
-
+               # For now: just return converted CSV path
                 # Create download link
                 download_link = settings.MEDIA_URL + 'converted/' + output_filename
+
 
         except Exception as e:
             error_message = f"⚠️ Error processing file: {str(e)}"
 
     return render(request, 'upload.html', {
         'download_link': download_link,
-        'error_message': error_message
+        'error_message': error_message,
+        'sample_preview': sample_preview
+        
     })
 
     return render(request, 'upload.html', {'download_link': download_link})
+
