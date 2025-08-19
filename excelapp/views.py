@@ -20,7 +20,7 @@ REQUIRED_COLUMNS = [
     "Group ID", "Question Type", "Question Content",
     "OptionA", "OptionB", "OptionC", "OptionD",
     "Answer", "CoureOutcome", "Taxonomy", "Complexity",
-    "Topic", "Course Sub Topic"
+    "Course Topic", "Course Sub Topic"
 ]
 
 def convert_excel(file_path):
@@ -117,7 +117,7 @@ def upload_file(request):
                         "Marks": "1",
                         "Negative Marks": "0",
                         "Course Outcome Configuration": format_course_outcome(row["CoureOutcome"]),
-                        "Course Topic": row["Topic"],
+                        "Course Topic": row["Course Topic"],
                         "Course Sub Topic": row["Course Sub Topic"]
                     }
                     result.append(question)
